@@ -5,7 +5,7 @@ It simulates how modern data teams **design, ingest, process, store, and analyze
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 - Databricks  
 - Delta Lake  
 - Databricks SQL  
@@ -13,27 +13,27 @@ It simulates how modern data teams **design, ingest, process, store, and analyze
 
 ---
 
-## 🏗 Architecture Overview
+##  Architecture Overview
 
 The pipeline follows the **Medallion Architecture (Bronze → Silver → Gold)**:
 
-### 🟤 Bronze Layer
+###  Bronze Layer
 Raw retail data ingested into Databricks with minimal transformation.
 
-### ⚪ Silver Layer
+###  Silver Layer
 Data cleaned, validated, and standardized using **Delta Lake**.
 
-### 🟡 Gold Layer
+###  Gold Layer
 Business-ready analytical tables optimized for reporting and dashboards.
 
-### 📊 Analytics & Visualization
+###  Analytics & Visualization
 Data exposed via **Databricks SQL** and consumed in **Power BI dashboards**.
 
 <img width="1077" height="567" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/433fcc80-40e3-4104-ad70-32d96f5e92e2" />
 
 ---
 
-## ✨ Key Features
+##  Key Features
 - End-to-end data pipeline from ingestion to visualization  
 - Layered data modeling (Bronze / Silver / Gold)  
 - Scalable and maintainable data transformations  
